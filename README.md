@@ -8,3 +8,6 @@
 
 > The course covers structured, unstructured, and streaming data.
 
+
+# Reference
+- [Data Engineering on Google Cloud Platform](https://cloud.google.com/training/courses/data-engineering)
