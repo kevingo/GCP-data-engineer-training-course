@@ -1,4 +1,4 @@
-# Notes for the data engineering training on Google Cloud Platform
+# Notes for the data engineering training on GCP
 
 > This four-day instructor-led class provides participants a hands-on introduction to 
 > designing and building data processing systems on Google Cloud Platform.
