@@ -243,3 +243,4 @@
 - [Data Engineering on Google Cloud Platform](https://cloud.google.com/training/courses/data-engineering)
 - [Data Engineering on Google Cloud Platform in Taipei](https://events.withgoogle.com/data-engin-422792/class-outline/#content)
 - [Labs Code on Github](https://github.com/GoogleCloudPlatform/training-data-analyst)
+- [20180306_DEonGCP_Taipei Documents/Questions/Refs](https://goo.gl/s7uR8Y)
