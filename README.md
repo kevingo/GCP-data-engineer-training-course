@@ -119,6 +119,40 @@ enables Serverless to work.
 
 ### Module 3: Leveraging GCP
 
+- Use Dataproc to run OSS on GCP
+- But about OSS that’s not already installed?
+  - Install software on Dataproc cluster
+    - To install software on Dataproc cluster
+    - Upload it to Cloud Storage
+    - Specify GCS location in Dataproc creation command
+    - E.g.
+    ```shell
+    #!/bin/bash
+    apt-get update || true
+    apt-get install -y python-numpy python-scipy python-matplotlib python-pandas
+    ```
+    - Notes: The script is run as root, there is no need to use "sudo"
+    - Can only install software on master or worker node
+    ```shell
+    #!/bin/bash
+    apt-get update || true
+    ROLE=$(/usr/share/google/get_metadata_value attributes/dataproc-role)
+    if [[ "${ROLE}" == 'Master' ]]; then
+      apt-get install -y vim
+    else
+      # something that goes only on worker
+    Fi
+    # things that go on both
+    apt-get install -y python-numpy python-scipy python-matplotlib python-pandas
+    ```
+    - Specify GCS location when creating cluster
+    ```shell
+    gcloud dataproc clusters create mycluster \
+    --initialization-actions gs://mybucket/init-actions/my_init.sh \
+    --initialization-action-timeout 3m
+    ```
+
+
 ### Module 4: Analyzing unstructured data
 
 ### Module 5: BigQuery
