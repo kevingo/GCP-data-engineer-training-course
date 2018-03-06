@@ -65,24 +65,24 @@ resides.
     ```
   - Submitting PySpark Jobs without copying anything (code or data) to the cluster
     - Input
-      ```
-      Dog,Noir
-      Dog,Bree
-      Dog,Pickles
-      Dog,Sparky
-      Cat,Tom
-      Cat,Alley
-      Cat,Cleo
-      Frog,Kermit
-      Pig,Bacon
-      Pig,Babe
-      Dog,Gigi
-      Cat,George
-      Frog,Hoppy
-      Pig,Tasty
-      Dog,Fred
-      Cat,Suzy
-      ```
+    ```
+    Dog,Noir
+    Dog,Bree
+    Dog,Pickles
+    Dog,Sparky
+    Cat,Tom
+    Cat,Alley
+    Cat,Cleo
+    Frog,Kermit
+    Pig,Bacon
+    Pig,Babe
+    Dog,Gigi
+    Cat,George
+    Frog,Hoppy
+    Pig,Tasty
+    Dog,Fred
+    Cat,Suzy
+    ```
     - Code
     ```python
     #!/usr/bin/env python
@@ -107,8 +107,6 @@ resides.
     gcloud dataproc jobs submit pyspark \
     --cluster my-cluster gs://<YOUR-BUCKET-NAME>/unstructured/lab2.py
     ```
-
-
 
 ### Module 2: Running Dataproc jobs
 
