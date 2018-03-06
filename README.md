@@ -18,6 +18,8 @@
 
 ### Module 4: Analyzing unstructured data
 
+### Module 5: BigQuery
+
 ## Day 2: Serveerless data analysis
 
 ## Day 3: Serverless Machine Learning
