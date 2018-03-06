@@ -110,6 +110,7 @@ resides.
 
 ### Module 2: Running Dataproc jobs
 
+- All the serverless services are stateless.
 - Separation of Storage and Compute is what
 enables Serverless to work.
   - Compute: Cloud Dataflow、BigQuery Analytics、Cloud Dataproc
