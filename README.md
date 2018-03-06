@@ -12,6 +12,23 @@
 
 ### Module 1: Introduction to Cloud Dataproc
 
+- Cloud Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them.
+
+- Unstructured data accounts for 90% of enterprise data. It's hard to analyzed.
+  - Even with Google, e.g. Google has lots of street view data. It contatins bunch of valuable information.
+  
+- MapReduce split big data so each compute node process data local to it.
+  - Operating and adminitraing takes a lot of times.
+  - Dataproc ease Hadoop management.
+  - Scaling takes less than 5 mins.
+  
+- Dataproc
+  - Zone is important. Match your data location with your compute location.
+  - Data in Google Cloud Storage (GCS) is replicated across zones. So you can pick any zone within the region where your data
+resides.
+  - But cross region cause performace issue.
+
+
 ### Module 2: Running Dataproc jobs
 
 ### Module 3: Leveraging GCP
