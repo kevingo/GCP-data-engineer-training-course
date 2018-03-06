@@ -10,6 +10,14 @@
 
 ## Day 1: Leveraging Unstructured Data
 
+### Module 1: Introduction to Cloud Dataproc
+
+### Module 2: Running Dataproc jobs
+
+### Module 3: Leveraging GCP
+
+### Module 4: Analyzing unstructured data
+
 ## Day 2: Serveerless data analysis
 
 ## Day 3: Serverless Machine Learning
