@@ -110,6 +110,12 @@ resides.
 
 ### Module 2: Running Dataproc jobs
 
+- Separation of Storage and Compute is what
+enables Serverless to work.
+  - Compute: Cloud Dataflow、BigQuery Analytics、Cloud Dataproc
+  - Storage: Cloud Storage (File)、BigQuery Storage (Tables)、Cloud BigTable (NoSQL)
+- Only change `hdfs://` to `gs://`
+
 ### Module 3: Leveraging GCP
 
 ### Module 4: Analyzing unstructured data
