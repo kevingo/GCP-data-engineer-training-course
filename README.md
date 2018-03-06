@@ -27,6 +27,21 @@
   - Data in Google Cloud Storage (GCS) is replicated across zones. So you can pick any zone within the region where your data
 resides.
   - But cross region cause performace issue.
+  - Standard/HA Mode for master node.
+  - For worker node, disk performance scale with size.
+  - Don't store input/output data in HDFS. 
+    - You want to delete your cluster after your job done.
+  - Preemptible workers can be a good deal.
+    - 50% cost reduction.
+    - Best practice is 50%/50% of on-demand and preemptible-vm
+  - Create Dataproc via scripts/console/REST API. E.g.
+  ```shell
+  gcloud dataproc clusters create my-second-cluster --zone us-central1-a \
+  --master-machine-type n1-standard-1 --master-boot-disk-size 50 \
+  --num-workers 2 --worker-machine-type n1-standard-1 \
+  --worker-boot-disk-size 50
+  ```
+  
 
 
 ### Module 2: Running Dataproc jobs
