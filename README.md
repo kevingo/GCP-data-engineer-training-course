@@ -152,8 +152,8 @@ enables Serverless to work.
     --initialization-action-timeout 3m
     ```
 
-
 ### Module 4: Analyzing unstructured data
+  - ML API and case study.
 
 ### Module 5: BigQuery
 
