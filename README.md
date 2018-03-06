@@ -41,6 +41,10 @@ resides.
   --num-workers 2 --worker-machine-type n1-standard-1 \
   --worker-boot-disk-size 50
   ```
+  - Delete clusters after your job finished.
+  ```shell
+  gcloud dataproc clusters delete my-second-cluster
+  ```
   
 
 
