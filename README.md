@@ -1,4 +1,4 @@
-# Notes for Data Engineering on Google Cloud Platform(v1.1)
+# Notes for Data Engineering on Google Cloud Platform (v1.1)
 
 > This four-day instructor-led class provides participants a hands-on introduction to
 > designing and building data processing systems on Google Cloud Platform.
@@ -156,8 +156,12 @@ enables Serverless to work.
   - ML API and case study.
 
 ### Module 5: BigQuery
+  - No-ops data warehousing and analytics
+  - Billing model.
 
-## Day 2: Serveerless data analysis
+## Day 2: Serverless data analysis
+
+### Module 6: Autoscaling data processing pipelines
 
 ## Day 3: Serverless Machine Learning
 
