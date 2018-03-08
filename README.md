@@ -157,7 +157,7 @@ enables Serverless to work.
 
 ### Module 5: BigQuery
   - No-ops data warehousing and analytics
-  - Billing model.
+  - Billing model.
 
 ## Day 2: Serverless data analysis
 
